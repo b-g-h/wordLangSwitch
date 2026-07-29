@@ -1,0 +1,103 @@
+# German translation for wordLangSwitch.
+# Copyright (C) 2026
+# This file is distributed under the same license as the wordLangSwitch package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wordLangSwitch 1.5.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2026-07-29 12:00+0000\n"
+"PO-Revision-Date: 2026-07-29 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Translators: Title of the add-on's settings panel.
+#. Translators: Name of the add-on's category in the input gestures dialog.
+msgid "Word language switching"
+msgstr "Sprecherwechsel in Word"
+
+#. Translators: Label of a checkbox in the add-on's settings panel.
+msgid "&Enable voice switching on language changes in Word"
+msgstr "Sprecherwechsel bei Sprachwechseln in Word &aktivieren"
+
+#. Translators: Label of a checkbox in the add-on's settings panel.
+msgid "Strip &dialects (e.g. report en_GB as plain en to the synthesizer)"
+msgstr "&Dialekte entfernen (z. B. en_GB als en an die Sprachausgabe melden)"
+
+#. Translators: Label of an edit field in the add-on's settings panel.
+msgid "Language &mappings (format: en_GB=en_US;fr_CA=fr_FR):"
+msgstr "Sprach&zuordnungen (Format: en_GB=en_US;fr_CA=fr_FR):"
+
+#. Translators: Description of a script in the input gestures dialog.
+msgid "Shows diagnostic information about language switching in Word"
+msgstr "Gibt Diagnose-Informationen zum Sprecherwechsel in Word aus"
+
+#. Translators: Title of the diagnostics browseable message.
+msgid "Word language switching diagnostics"
+msgstr "Diagnose: Sprecherwechsel in Word"
+
+#. Translators: Spoken if the diagnostics window could not be shown.
+msgid "Diagnostics written to the NVDA log"
+msgstr "Diagnose wurde ins NVDA-Protokoll geschrieben"
+
+#. Translators: Description of a script in the input gestures dialog.
+msgid "Toggles automatic voice switching for language changes in Microsoft Word"
+msgstr ""
+"Schaltet den automatischen Sprecherwechsel bei Sprachwechseln in Microsoft "
+"Word ein oder aus"
+
+#. Translators: Spoken when the add-on has been enabled.
+msgid "Word language switching on"
+msgstr "Sprecherwechsel in Word eingeschaltet"
+
+#. Translators: Spoken when the add-on has been disabled.
+msgid "Word language switching off"
+msgstr "Sprecherwechsel in Word ausgeschaltet"
+
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+msgid "Word Language Switching"
+msgstr "Sprecherwechsel in Word"
+
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+msgid ""
+"Automatic voice switching for marked language changes in Microsoft Word and "
+"Outlook.\n"
+"The add-on obtains the language marked in the document via the Word object "
+"model and feeds it\n"
+"into NVDA's automatic language switching, so multilingual documents are "
+"read with the matching\n"
+"voice (e.g. neural/natural voices via OneCore or SAPI 5) - just like on the "
+"web.\n"
+"Requires \"Automatic language switching\" to be enabled in NVDA's speech "
+"settings.\n"
+"Includes optional dialect stripping and language code mappings for "
+"synthesizers\n"
+"that only match specific language codes."
+msgstr ""
+"Automatischer Sprecherwechsel bei ausgezeichneten Sprachwechseln in "
+"Microsoft Word und Outlook.\n"
+"Die Erweiterung ermittelt die im Dokument ausgezeichnete Sprache über das "
+"Word-Objektmodell und speist sie\n"
+"in NVDAs automatischen Sprachenwechsel ein, sodass mehrsprachige Dokumente "
+"mit der passenden Stimme\n"
+"(z. B. Neural-/Natural-Stimmen über OneCore oder SAPI 5) gelesen werden – "
+"wie im Web.\n"
+"Erfordert die aktivierte Option „Automatischer Sprachenwechsel“ in NVDAs "
+"Sprachausgaben-Einstellungen.\n"
+"Enthält optional Dialekt-Entfernung und Sprachcode-Zuordnungen für "
+"Synthesizer,\n"
+"die nur bestimmte Sprachcodes erkennen."
+
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+msgid ""
+"First public release: language detection via the Word object model,\n"
+"settings panel with dialect stripping and language mappings, diagnostics "
+"script."
+msgstr ""
+"Erste öffentliche Version: Spracherkennung über das Word-Objektmodell,\n"
+"Einstellungs-Panel mit Dialekt-Entfernung und Sprachzuordnungen, Diagnose-"
+"Skript."
