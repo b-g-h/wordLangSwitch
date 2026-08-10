@@ -489,7 +489,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Description of a script in the input gestures dialog.
 		description=_("Shows diagnostic information about language switching in Word"),
-		gesture="kb:NVDA+shift+k",
+		gesture="kb:NVDA+alt+k",
 	)
 	def script_diagnose(self, gesture):
 		import api
@@ -577,7 +577,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@script(
 		# Translators: Description of a script in the input gestures dialog.
 		description=_("Toggles automatic voice switching for language changes in Microsoft Word"),
-		gesture="kb:NVDA+shift+l",
+		gesture="kb:NVDA+alt+w",
 	)
 	def script_toggleWordLangSwitch(self, gesture):
 		newValue = not config.conf["wordLangSwitch"]["enabled"]

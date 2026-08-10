@@ -12,3 +12,7 @@ manifest.ini
 build/
 Test.docx
 ~$*.docx
+*.egg-info
+__pycache__/
+.venv/
+AddonTemplate-master/

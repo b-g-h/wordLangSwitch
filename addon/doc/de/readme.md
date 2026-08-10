@@ -36,9 +36,9 @@ wechselt die Stimme – genau wie im Web.
 
 * Die Erweiterung arbeitet automatisch beim Lesen mit Pfeiltasten, beim
   satz-/absatzweisen Lesen und bei „Alles Lesen“.
-* **NVDA+Umschalt+L** schaltet die Funktion ein oder aus.
-* **NVDA+Umschalt+K** zeigt eine Diagnose (erkannte Sprachen, Objektmodell,
-  Einstellungen) – hilfreich bei der Fehlersuche.
+* **NVDA+Alt+W** schaltet die Funktion ein oder aus.
+* **NVDA+Alt+K** zeigt eine Diagnose (erkannte Sprachen, Objektmodell,
+   Einstellungen) – hilfreich bei der Fehlersuche.
 * Beide Tasten sind im „Eingaben“-Dialog änderbar (Kategorie
   „Sprecherwechsel in Word“).
 

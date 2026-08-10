@@ -1,7 +1,7 @@
 # Build customizations
 # Change this file instead of sconstruct or manifest files, whenever possible.
 
-from site_scons.site_tools.NVDATool.typings import AddonInfo, BrailleTables, SymbolDictionaries
+from site_scons.site_tools.NVDATool.typings import AddonInfo, BrailleTables, SymbolDictionaries, SpeechDictionaries
 
 # Since some strings in `addon_info` are translatable,
 # we need to include them in the .po files.
@@ -31,12 +31,14 @@ Includes optional dialect stripping and language code mappings for synthesizers
 that only match specific language codes.""",
 	),
 	# version
-	addon_version="1.5.0",
+	addon_version="1.5.1",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_(
-		"""First public release: language detection via the Word object model,
-settings panel with dialect stripping and language mappings, diagnostics script.""",
+		"""Updated for NVDA 2026.2: the toggle gesture is now NVDA+Alt+W and the
+diagnostics gesture is NVDA+Alt+K, because NVDA 2026.2 reserves NVDA+Shift+L
+for the Magnifier. The build tooling (site_scons) and project files were updated
+to match the current NVDA add-on template (including the speechDictionaries field).""",
 	),
 	# Author(s)
 	addon_author="Barbara Henn",
@@ -81,3 +83,6 @@ brailleTables: BrailleTables = {}
 
 # Custom speech symbol dictionaries
 symbolDictionaries: SymbolDictionaries = {}
+
+# Custom speech dictionaries
+speechDictionaries: SpeechDictionaries = {}

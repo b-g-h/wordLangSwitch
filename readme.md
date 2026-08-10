@@ -39,8 +39,8 @@ exactly as on the web.
 
 * The add-on works automatically when reading with the arrow keys, by
   sentence/paragraph, and during say all.
-* **NVDA+shift+l** toggles the add-on on or off.
-* **NVDA+shift+k** shows diagnostics (detected languages, object model,
+* **NVDA+alt+w** toggles the add-on on or off.
+* **NVDA+alt+k** shows diagnostics (detected languages, object model,
   settings) – helpful for troubleshooting.
 * Both gestures can be changed in the Input Gestures dialog (category
   "Word language switching").
@@ -71,20 +71,30 @@ exactly as on the web.
 
 ## Building from source
 
-Run either the official SCons build (requires SCons, Markdown and gettext
-tools):
+The add-on is built with SCons, using the project setup from the current NVDA
+add-on template.
 
+Prerequisites:
+
+* [`uv`](https://docs.astral.sh/uv/)
+* gettext tools (`xgettext`, `msgfmt`) on your `PATH`
+
+Build:
+
+    uv sync
+    uv run scons
+
+This creates `wordLangSwitch-<version>.nvda-addon` in the root folder.
+Run `uv run scons pot` to generate the translation template (`.pot`).
+
+Alternatively, with your own Python environment:
+
+    pip install scons Markdown
     scons
-
-or the dependency-free helper script:
-
-    python buildAddon.py
-
-Both create `wordLangSwitch-<version>.nvda-addon`.
 
 ## License
 
 This add-on is licensed under the GNU General Public License, version 2 or
 later (see the `LICENSE` file).
 
-[1]: https://github.com/yourUser/wordLangSwitch/releases/latest
+[1]: https://github.com/b-g-h/wordLangSwitch/releases/latest
